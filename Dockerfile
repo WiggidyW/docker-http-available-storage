@@ -6,6 +6,8 @@ LABEL version="1.0"
 
 COPY ./root /
 
+RUN chmod +x /init.sh
+
 EXPOSE 8080
 
 CMD ["/init.sh"]
