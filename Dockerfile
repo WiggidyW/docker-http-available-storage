@@ -8,6 +8,6 @@ COPY ./root /
 
 RUN chmod +x /init.sh
 
-EXPOSE 7824
+EXPOSE 8080
 
 CMD ["/init.sh"]
